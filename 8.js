@@ -1,3 +1,6 @@
+// 8. Write a program to find the sum of all the odd numbers for a given limit
+
+const prompt = require ("prompt-sync") ({sigint:true});
 const limit = parseInt(prompt("Enter a limit:"));
 var sum=0;
 
